@@ -8,7 +8,6 @@ function onInputBlur(event) {
     input.classList.remove("invalid");
     input.classList.add("valid");
   } else {
-    input.classList.add("valid");
     input.classList.add("invalid");
   }
 }
