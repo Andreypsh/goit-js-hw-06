@@ -7,6 +7,7 @@ function onInputBlur(event) {
   if (onInputValue === inputLength) {
     input.classList.add("valid");
   } else {
+    input.classList.add("valid");
     input.classList.add("invalid");
   }
 }
